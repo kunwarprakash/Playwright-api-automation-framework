@@ -1,0 +1,10 @@
+export const bookingSchema = {
+  type: 'object',
+  properties: {
+    firstname: { type: 'string' },
+    lastname: { type: 'string' },
+    totalprice: { type: 'number' },
+    depositpaid: { type: 'boolean' }
+  },
+  required: ['firstname', 'lastname', 'totalprice']
+};
